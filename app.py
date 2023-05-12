@@ -9,7 +9,8 @@ deta = json.loads(s)
 print(deta["nowonair_list"]["g1"]["previous"])
 @app.route("/")
 def index():
-    return render_template('index.html', x = 20)
+    #return render_template('index.html', x = 20)
+    return render_template('index.html',time="開始時刻",title="タイトル")
 @app.route("/style.css")
 def html():
     return render_template("style.css")
