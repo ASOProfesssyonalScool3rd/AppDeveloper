@@ -1,0 +1,15 @@
+/* ▼表全体の装飾 */
+table {
+    border-collapse: collapse; /* セルの境界線を共有 */
+}
+
+/* ▼各セルの装飾 */
+td {
+    border: 1px solid black;  /* 表の罫線(=セルの枠線) */
+    padding: 0.5em 1em;       /* セル内側の余白量 */
+}
+body{
+    background-color: black;
+    margin: 200px 100px 0px 350px;
+}
+
